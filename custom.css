@@ -1,0 +1,83 @@
+/* Style global */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    line-height: 1.6;
+}
+
+/* Conteneur principal */
+.wy-nav-content {
+    max-width: 800px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* En-têtes */
+h1 {
+    color: #0077b6;
+    font-size: 28px;
+    font-weight: 600;
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 8px;
+}
+
+h2 {
+    color: #0096c7;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #00b4d8;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+/* Liens */
+a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Blocs de code */
+pre {
+    background: #f4f4f4;
+    border-left: 4px solid #0077b6;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    white-space: pre-wrap;
+}
+
+code {
+    background: #e9ecef;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Navigation */
+.wy-nav-side {
+    background: #ffffff !important;
+    border-right: 1px solid #e9ecef;
+}
+
+.wy-side-nav-search {
+    background: white !important;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Espacement des paragraphes */
+p {
+    margin-bottom: 10px;
+}
